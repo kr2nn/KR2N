@@ -6,8 +6,8 @@ import time
 from datetime import datetime
 
 # ==================== Configuration ====================
-CSV_URL = "https://raw.githubusercontent.com/jaikshaikh/Vortexcodes/refs/heads/main/expiry_list.csv"
-CONTACT_URL = "https://t.me/PrayagRajj"
+CSV_URL = "https://raw.githubusercontent.com/kr2nn/KR2N/refs/heads/main/expiry_list.csv"
+CONTACT_URL = "https://t.me/KR2Nn"
 USE_COLOR = True  # Set to False for plain terminal output
 
 # ==================== Color Helper ====================
@@ -113,7 +113,7 @@ def show_access_time(expiry_date):
     remaining = format_remaining_time(expiry_date)
     live_text(colorize("\n✅ Access Granted!", GREEN))
     live_text(colorize("⏱️ Time remaining: ", CYAN) + remaining)
-    print(colorize("🔓 Welcome to Vortex Tool!", BOLD))
+    print(colorize("🔓 Welcome to K R 2 N !", BOLD))
 
 def deny_access(message):
     live_text(colorize(f"\n{message}", RED))
